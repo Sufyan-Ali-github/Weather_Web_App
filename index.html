@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+   
+</head>
+<body id="body">
+     <div id="error">
+        <span> </span>
+    </div>
+   
+<section id="First_page" >
+    <div class="all-items">
+        <div class="search_item" >
+                <input type="text" class="search-bar" placeholder="Search" id="input_box">
+                <button class="search-btn"> <img  src="images/srch.png" alt="SearchPic" height="20px"> </button>
+        </div>   
+        <div>
+           <div class="city">
+                 <h2> Search Weather </h2> 
+            </div>
+            <div class="i-m-g">
+                 <img src="images/cloud.svg" alt="CloudPic" height="50px">
+            </div>
+        </div>
+    </div>
+</section>
+<div class="center">
+    <div id="loading_item">
+    <span></span>
+</div>
+</div>
+<script src="script.js"></script>
+    
+</body>
+</html>
